@@ -7,7 +7,7 @@ from yelpAPI import get_key
 business_id = 'WavvLdfdP6g8aZTtbBQHTw'
 
 # Define API key, andpoint, and header
-API_KEY = 'ruKk2xMOzG09cGB6OUIQg48nJ_66MckLb1bKq_uZJb-4M_44H1za0AFJFgundmRR-k4xRhELjq0H24d-rqtke-kcI-Ne7pjPPI9ZSov9Ggoal_W4Q2MClS0ugeD2YnYx'
+API_KEY = get_key()
 ENDPOINT = 'https://api.yelp.com/v3/businesses/search'
 HEADERS = {'Authorisation': "bearer %s" % API_KEY}
 
